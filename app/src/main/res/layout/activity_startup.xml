@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context="com.example.thoeurn.loginscreen.SignUpActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="123dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/img_background"
+        android:src="@drawable/img_rupp"
+        android:layout_weight="0.28" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.41"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/btn_SignUp"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:onClick="OnSignUpClick"
+            android:text="Sign Up"
+            android:textColor="#444" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_Facebook"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+
+            android:text="Facebook"
+            android:textColor="#444" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_Emercency"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="Emercency"
+            android:textColor="#444" />
+
+    </LinearLayout>
+</LinearLayout>
